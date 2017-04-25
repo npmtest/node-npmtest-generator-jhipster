@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-generator-jhipster/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-generator-jhipster/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-generator-jhipster/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-generator-jhipster/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-generator-jhipster/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-generator-jhipster/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-generator-jhipster/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-generator-jhipster/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-generator-jhipster/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-generator-jhipster/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-generator-jhipster/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-generator-jhipster/build/coverage.html/index.html)
 
@@ -121,7 +121,8 @@
         "pretest": "eslint .",
         "test": "mocha --timeout 20000 --slow 0 --reporter spec"
     },
-    "version": "4.3.0"
+    "version": "4.3.0",
+    "bin": {}
 }
 ```
 
